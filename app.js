@@ -11,6 +11,6 @@ const api_router = require("./api")
 app.use("/api",auth_middleware,api_router);
 
 
-app.get('/', (req, res) => res.send('Hello World!'))
+app.get('/', (req, res) => res.send(process.env.A5_RESPONSE))
 
 module.exports = app
