@@ -89,7 +89,7 @@ const body = {
 
 
 fetch(SERVICE_URL, {
-  method: "GET",
+  method: "POST",
   headers,
   body                                          // JSON body
 })
